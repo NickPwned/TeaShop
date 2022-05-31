@@ -18,6 +18,7 @@
     display: flex;
     justify-content: left;
     align-items: left;
+    flex-shrink: 1;
     z-index: 100;
     top: 0;
 }
@@ -38,10 +39,11 @@ img.logo {
     margin-left: auto;
     margin-top: 20px;
     margin-right: 20px;
+    flex-shrink: 1;
 }
 
 .navbar>a {
-    margin-left :15px;
+    margin-left: 15px;
 }
 
 
@@ -53,6 +55,7 @@ img.logo {
     justify-content: center;
     align-content: center;
     text-align: center;
+    flex-shrink: 1;
     margin-top: 69px;
 }
 
@@ -60,6 +63,8 @@ img.logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-shrink: 1;
     height: 700px;
     width: 100%;
     max-width: 1200px;
@@ -109,10 +114,63 @@ figcaption {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 /* Locations */
 
+.location {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    bottom: 75px;
+}
+
+.abs {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.box h3 {
+    margin-top: 15px;
+}
+
+.tit {
+    background-color: transparent;
+    margin: 0
+}
+
+.dt,
+.eb,
+.oak {
+    margin: 20px;
+    width: 300px;
+    opacity: 1;
+
+}
 
 /* About */
 
