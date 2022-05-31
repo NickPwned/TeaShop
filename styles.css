@@ -174,5 +174,24 @@ figcaption {
 
 /* About */
 
+.about {
+    max-height: 200px;
+    height: 100%;
+}
+
+.about h1 {
+    margin-top: 10px;
+}
+
 
 /* Footer */
+
+.cr {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cr p {
+    text-align: left;
+    font-size: 20px;
+}
