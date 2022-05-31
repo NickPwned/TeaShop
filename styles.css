@@ -6,9 +6,10 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
 
-/* Header */
+/* Nav */
 
 .navigation-bar {
     position: fixed;
@@ -17,6 +18,8 @@
     display: flex;
     justify-content: left;
     align-items: left;
+    z-index: 100;
+    top: 0;
 }
 
 
@@ -25,25 +28,62 @@ img.logo {
     vertical-align: top;
     height: 50px;
     margin-left: 10px;
+    margin-top: 9px;
 }
 
 .navbar {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
     margin-left: auto;
     margin-top: 20px;
     margin-right: 20px;
 }
 
-.navbar > a {
-    margin: 15px;
+.navbar>a {
+    margin-left :15px;
 }
 
 
 
 /* Banner */
 
+.banner {
+    text-align: center;
+    margin-top: 69px;
+}
+
+.oatmeal {
+    height: 700px;
+    width: 1200px;
+}
+
+.mission {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin: 0;
+}
+
+.mission h2 {
+    margin: 10px;
+}
+
+.mission h4 {
+    margin: 15px;
+}
+
 
 /* Tea of the Month */
+
+.totm {
+    margin-top: 50px;
+}
+
+.tt {
+    width: 300px;
+    height: 200px;
+}
 
 
 /* Locations */
