@@ -57,14 +57,19 @@ img.logo {
 }
 
 .oatmeal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 700px;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .mission {
     position: absolute;
     overflow: scroll;
     width: 1200px;
+    max-width: 100%;
     top: 50%;
 }
 
@@ -81,6 +86,9 @@ img.logo {
 
 .totm {
     margin-top: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tt {
@@ -88,6 +96,20 @@ img.logo {
     height: 200px;
 }
 
+.fig {
+    margin: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.tea {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
 /* Locations */
 
